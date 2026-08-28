@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+# Build output
+dist
+dist-ssr
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+*.local
