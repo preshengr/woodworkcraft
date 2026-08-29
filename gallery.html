@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Woodwork &amp; Craft Ltd</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav-bar">
+      <div class="logo">Woodwork<span>&amp; Craft</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="about-hero">
+    <div class="container">
+      <h1>Our Gallery</h1>
+      <p>Click any image to enlarge</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub">A glimpse of our finest woodwork</p>
+      <div class="gallery-grid" id="galleryGrid">
+
+        <div class="gallery-card" data-caption="Custom Living Room Furniture">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80" alt="Furniture" />
+          <div class="overlay"><h3>Custom Furniture</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Modern Kitchen Cabinets">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Kitchen Cabinet" />
+          <div class="overlay"><h3>Kitchen Cabinets</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Elegant Library Cabinet">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Library Cabinet" />
+          <div class="overlay"><h3>Library Cabinets</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Handcrafted Wooden Door">
+          <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80" alt="Doors" />
+          <div class="overlay"><h3>Wooden Doors</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Bespoke Wine Bar">
+          <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80" alt="Wine Bar" />
+          <div class="overlay"><h3>Wine Bars</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Stylish Interior Woodwork">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80" alt="Interior" />
+          <div class="overlay"><h3>Interior Woodwork</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Wooden Dining Set">
+          <img src="https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=800&q=80" alt="Dining" />
+          <div class="overlay"><h3>Dining Sets</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Bedroom Wardrobe">
+          <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&q=80" alt="Wardrobe" />
+          <div class="overlay"><h3>Wardrobes</h3></div>
+        </div>
+
+        <div class="gallery-card" data-caption="Office Woodwork">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Office" />
+          <div class="overlay"><h3>Office Furniture</h3></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <button class="close" id="closeBtn" aria-label="Close">&times;</button>
+    <button class="nav-btn prev" id="prevBtn" aria-label="Previous">&#10094;</button>
+    <img src="" alt="Enlarged" id="lightboxImg" />
+    <div class="caption" id="lightboxCaption"></div>
+    <button class="nav-btn next" id="nextBtn" aria-label="Next">&#10095;</button>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="logo">Woodwork<span>&amp; Craft</span> Ltd</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      <p>woodworkcraft3@gmail.com | 07087787838</p>
+      <p class="copyright">&copy; 2026 Woodwork &amp; Craft Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
